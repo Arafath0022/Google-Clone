@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center h1{
+    font-family: 'product sans';
+    font-size: 87px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.center h1 span:nth-child(1){
+    color: #3e7afc;
+}
+
+.center h1 span:nth-child(2){
+    color: #fc2323;
+}
+
+.center h1 span:nth-child(3){
+    color: #ffc400;
+}
+
+.center h1 span:nth-child(4){
+    color: #3e7afc;
+}
+
+.center h1 span:nth-child(5){
+    color: #04a704;
+}
+
+.center h1 span:nth-child(6){
+    color: #fc2323;
+}
+
+.search{
+    width: 505px;
+    height: 42px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 1px 2px 2px rgb(233, 233, 233);
+    padding-left: 50px;
+}
+
+.center i{
+    position: absolute;
+}
+
+.fas{
+    padding: 13px;
+    min-width: 40px;
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+}
+
+.fa-microphone{
+    right: 1px;
+    color: #3e7afc;
+    font-size: 16px;
+}
+
+.button{
+    display: flex;
+    margin-left: 170px;
+}
+
+.yotube{
+    width: 112px;
+    height: 110px;
+    transition: 0.4s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.yotube:hover{
+    background: rgba(218, 220, 224);
+}
+
+.image{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background: rgba(241, 243, 244, 1);
+    margin-top: 20px;
+    color: black;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.image img{
+    width: 24px; 
+    height: 24px;
+    margin-top: 10px; 
+}
+
+.yotube h5{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.center p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    border: 1px solid #d1d0d0;
+    font-family: sans-serif;
+    padding-top: 3px;
+    color: rgb(43, 42, 42);
+}
+
+.center p span{
+    color: #3e7afc;
+}
